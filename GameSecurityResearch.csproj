@@ -40,8 +40,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cryptography\Xbox360AccountFile.cs" />
+    <Compile Include="Hash\Custom\BayonettaChecksum.cs" />
     <Compile Include="Hash\Custom\ChaserChecksum.cs" />
+    <Compile Include="Hash\Custom\DragonBallZUltimateTenkaichiChecksum.cs" />
+    <Compile Include="Hash\Custom\EAGamesChecksum.cs" />
     <Compile Include="Hash\Custom\ElectronicArtsChecksum.cs" />
+    <Compile Include="Hash\Custom\Formula12010and2011Checksum.cs" />
+    <Compile Include="Hash\Custom\LostOdysseyChecksumEncryption.cs" />
+    <Compile Include="Hash\Custom\LostPlanetChecksum.cs" />
+    <Compile Include="Hash\Custom\OutrunOnlineArcadeChecksum.cs" />
+    <Compile Include="Hash\Custom\RageChecksum.cs" />
+    <Compile Include="Hash\Custom\ResidentEvil4Checksum.cs" />
+    <Compile Include="Hash\Custom\ResidentEvil5Checksum.cs" />
+    <Compile Include="Hash\Custom\ResidentEvil6Checksum.cs" />
     <Compile Include="Hash\CyclicRedundancyCheck\Crc4Checksum.cs" />
     <Compile Include="Hash\CyclicRedundancyCheck\Crc8AtmChecksum.cs" />
     <Compile Include="Hash\CyclicRedundancyCheck\Crc8BlockChecksum.cs" />
@@ -54,6 +66,7 @@
     <Compile Include="Hash\CyclicRedundancyCheck\Crc8WcdmaChecksum.cs" />
     <Compile Include="Hash\CyclicRedundancyCheck\Sum8Checksum.cs" />
     <Compile Include="Hash\CyclicRedundancyCheck\Xor8Checksum.cs" />
+    <Compile Include="Hash\Custom\NinjaGaiden2Checksum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
