@@ -16,8 +16,8 @@ namespace GameSecurityResearch.Cryptography
     public static class DeadCoreCrypto
     {
         //@Todo: Add decrypt and encrypt methods.
-		//Dead Core save game files are encrypter using DES with the key and IV below.
-        private static readonly string Key = "64bitPas"
-        private static readonly string IV = "LaClefDeToto"
+        //Dead Core save game files are encrypter using DES with the key and IV below.
+        private static readonly string Key = "64bitPas";
+        private static readonly string IV = "LaClefDeToto";
     }
 }

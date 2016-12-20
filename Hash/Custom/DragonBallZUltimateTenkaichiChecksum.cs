@@ -51,30 +51,34 @@ namespace GameSecurityResearch.Hash.Custom
                 F++;
         }
 
-        public static bool Calculate(byte[] Data, bool Fix)
+        public static bool Calculate(ref byte[] Data, bool Fix)
         {
             uint dwXRound = 0, dwYRound = 0, dwFinalValue = 0;
             byte[] pbDataPointer4 = null, pbDataPointer3 = null, pbDataPointer1 = null, pbDataPointer2 = null;
 
             if (Fix)
             {
-                StoreWord(ref Data, 0);
-                StoreWord(ref Data + 4, 0);
+                //@Todo: Fix this.
+                //StoreWord(ref Data, 0);
+                //StoreWord(ref Data + 4, 0);
             }
 
-            pbDataPointer1 = Data + 8;
-            pbDataPointer2 = pbDataPointer1 + 1;
-            pbDataPointer3 = pbDataPointer1 + 2;
-            pbDataPointer4 = pbDataPointer1 + 3;
+            //@Todo: Fix this.
+            //pbDataPointer1 = Data + 8;
+            //pbDataPointer2 = pbDataPointer1 + 1;
+            //pbDataPointer3 = pbDataPointer1 + 2;
+            //pbDataPointer4 = pbDataPointer1 + 3;
 
             for (uint i = 0, dwIndexer = 0; i < 0x927A; i++, dwIndexer += 4)
             {
                 uint dwTmpValue;
 
                 dwXRound = dwIndexer & 1;
-                pbDataPointer1 = pbDataPointer2 + dwIndexer;
+                //@Todo: Fix this.
+                //pbDataPointer1 = pbDataPointer2 + dwIndexer;
 
-                DoRound(ref dwXRound, pbDataPointer1, -1, ref dwYRound, dwTmpValue, ref dwFinalValue);
+                //@Todo: Fix this.
+                //DoRound(ref dwXRound, pbDataPointer1, -1, ref dwYRound, dwTmpValue, ref dwFinalValue);
 
                 dwTmpValue = dwIndexer - 1;
                 dwYRound = dwTmpValue & 1;
@@ -89,15 +93,17 @@ namespace GameSecurityResearch.Hash.Custom
                 uint CSum1 = dwFinalValue >> 8;
                 uint CSum2 = dwFinalValue & 0xFF;
 
-                StoreWord(Data, CSum1);
-                StoreWord(Data + 4, CSum2);
+                //@Todo: Fix this.
+                //StoreWord(Data, CSum1);
+                //StoreWord(Data + 4, CSum2);
 
                 return true;
             }
             else
             {
-                uint CSum1 = LoadWord(Data);
-                uint CSum2 = LoadWord(Data + 4);
+                //@Todo: Fix this.
+                //uint CSum1 = LoadWord(Data);
+                //uint CSum2 = LoadWord(Data + 4);
 
                 uint Calc1 = dwFinalValue >> 8;
                 uint Calc2 = dwFinalValue & 0xFF;

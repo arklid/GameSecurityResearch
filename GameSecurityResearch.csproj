@@ -40,12 +40,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cryptography\DarkSoulsIIICrypto.cs" />
+    <Compile Include="Cryptography\DeadCoreCrypto.cs" />
+    <Compile Include="Cryptography\FIFAInternaltionalSoccerCrypto.cs" />
+    <Compile Include="Cryptography\Forza3Crypto.cs" />
+    <Compile Include="Cryptography\MonsterHunter4UltimateCrypto.cs" />
     <Compile Include="Cryptography\Xbox360AccountFile.cs" />
+    <Compile Include="Hash\Custom\AnimalCrossingNewLeafChecksum.cs" />
     <Compile Include="Hash\Custom\BayonettaChecksum.cs" />
+    <Compile Include="Hash\Custom\CastlevaniaLordsofShadowChecksum.cs" />
     <Compile Include="Hash\Custom\ChaserChecksum.cs" />
     <Compile Include="Hash\Custom\DragonBallZUltimateTenkaichiChecksum.cs" />
     <Compile Include="Hash\Custom\EAGamesChecksum.cs" />
     <Compile Include="Hash\Custom\ElectronicArtsChecksum.cs" />
+    <Compile Include="Hash\Custom\ElectronicArtsMC02Checksum.cs" />
     <Compile Include="Hash\Custom\Formula12010and2011Checksum.cs" />
     <Compile Include="Hash\Custom\LostOdysseyChecksumEncryption.cs" />
     <Compile Include="Hash\Custom\LostPlanetChecksum.cs" />
@@ -54,6 +62,7 @@
     <Compile Include="Hash\Custom\ResidentEvil4Checksum.cs" />
     <Compile Include="Hash\Custom\ResidentEvil5Checksum.cs" />
     <Compile Include="Hash\Custom\ResidentEvil6Checksum.cs" />
+    <Compile Include="Hash\Custom\SaintsRow3Checksum.cs" />
     <Compile Include="Hash\CyclicRedundancyCheck\Crc4Checksum.cs" />
     <Compile Include="Hash\CyclicRedundancyCheck\Crc8AtmChecksum.cs" />
     <Compile Include="Hash\CyclicRedundancyCheck\Crc8BlockChecksum.cs" />

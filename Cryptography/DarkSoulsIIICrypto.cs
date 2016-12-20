@@ -1,4 +1,5 @@
-﻿/// <summary>
+﻿using System.Text;
+/// <summary>
 /// Copyright (c) 2016 Fredric Baeckström Arklid
 /// All rights reserved.
 /// 
