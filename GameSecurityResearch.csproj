@@ -45,7 +45,6 @@
     <Compile Include="Cryptography\FIFAInternaltionalSoccerCrypto.cs" />
     <Compile Include="Cryptography\Forza3Crypto.cs" />
     <Compile Include="Cryptography\MonsterHunter4UltimateCrypto.cs" />
-    <Compile Include="Cryptography\Xbox360AccountFile.cs" />
     <Compile Include="Hash\Custom\AnimalCrossingNewLeafChecksum.cs" />
     <Compile Include="Hash\Custom\BayonettaChecksum.cs" />
     <Compile Include="Hash\Custom\CastlevaniaLordsofShadowChecksum.cs" />

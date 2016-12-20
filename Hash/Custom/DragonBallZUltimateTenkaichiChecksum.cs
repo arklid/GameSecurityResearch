@@ -101,9 +101,8 @@ namespace GameSecurityResearch.Hash.Custom
             }
             else
             {
-                //@Todo: Fix this.
-                //uint CSum1 = LoadWord(Data);
-                //uint CSum2 = LoadWord(Data + 4);
+                uint CSum1 = (uint)BitConverter.ToInt32(Data, 0);
+                uint CSum2 = (uint)BitConverter.ToInt32(Data, 4);
 
                 uint Calc1 = dwFinalValue >> 8;
                 uint Calc2 = dwFinalValue & 0xFF;
