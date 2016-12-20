@@ -61,6 +61,8 @@
     <Compile Include="Hash\Custom\LostPlanetChecksum.cs" />
     <Compile Include="Hash\Custom\Nintendo64CICChecksum.cs" />
     <Compile Include="Hash\Custom\OutrunOnlineArcadeChecksum.cs" />
+    <Compile Include="Hash\Custom\PokemonGeneration1.cs" />
+    <Compile Include="Hash\Custom\PokemonVariousCustomChecksums.cs" />
     <Compile Include="Hash\Custom\PushmoChecksum.cs" />
     <Compile Include="Hash\Custom\RageChecksum.cs" />
     <Compile Include="Hash\Custom\RarewareCustomChecksum.cs" />
