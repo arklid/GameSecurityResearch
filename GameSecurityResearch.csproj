@@ -50,6 +50,8 @@
     <Compile Include="Hash\Custom\BayonettaChecksum.cs" />
     <Compile Include="Hash\Custom\CastlevaniaLordsofShadowChecksum.cs" />
     <Compile Include="Hash\Custom\ChaserChecksum.cs" />
+    <Compile Include="Hash\Custom\DarkSoulsIIChecksum.cs" />
+    <Compile Include="Hash\Custom\DarkSoulsPrepareToDieChecksum.cs" />
     <Compile Include="Hash\Custom\Diablo2Checksum.cs" />
     <Compile Include="Hash\Custom\DragonBallZUltimateTenkaichiChecksum.cs" />
     <Compile Include="Hash\Custom\DragonQuestVIIIChecksum.cs" />
@@ -57,12 +59,19 @@
     <Compile Include="Hash\Custom\ElectronicArtsChecksum.cs" />
     <Compile Include="Hash\Custom\ElectronicArtsMC02Checksum.cs" />
     <Compile Include="Hash\Custom\Formula12010and2011Checksum.cs" />
+    <Compile Include="Hash\Custom\GodOfWar1Checksum.cs" />
     <Compile Include="Hash\Custom\LostOdysseyChecksumEncryption.cs" />
     <Compile Include="Hash\Custom\LostPlanetChecksum.cs" />
+    <Compile Include="Hash\Custom\Mafia3Checksum.cs" />
     <Compile Include="Hash\Custom\Nintendo64CICChecksum.cs" />
     <Compile Include="Hash\Custom\OutrunOnlineArcadeChecksum.cs" />
     <Compile Include="Hash\Custom\PokemonGeneration1.cs" />
-    <Compile Include="Hash\Custom\PokemonVariousCustomChecksums.cs" />
+    <Compile Include="Hash\Custom\PokemonGeneration2.cs" />
+    <Compile Include="Hash\Custom\PokemonGeneration3.cs" />
+    <Compile Include="Hash\Custom\PokemonGeneration4.cs" />
+    <Compile Include="Hash\Custom\PokemonGeneration5.cs" />
+    <Compile Include="Hash\Custom\PokemonGeneration6.cs" />
+    <Compile Include="Hash\Custom\PokemonGeneration7.cs" />
     <Compile Include="Hash\Custom\PushmoChecksum.cs" />
     <Compile Include="Hash\Custom\RageChecksum.cs" />
     <Compile Include="Hash\Custom\RarewareCustomChecksum.cs" />
@@ -70,6 +79,7 @@
     <Compile Include="Hash\Custom\ResidentEvil5Checksum.cs" />
     <Compile Include="Hash\Custom\ResidentEvil6Checksum.cs" />
     <Compile Include="Hash\Custom\SaintsRow3Checksum.cs" />
+    <Compile Include="Hash\Custom\VindictusChecksum.cs" />
     <Compile Include="Hash\CyclicRedundancyCheck\Crc4Checksum.cs" />
     <Compile Include="Hash\CyclicRedundancyCheck\Crc8AtmChecksum.cs" />
     <Compile Include="Hash\CyclicRedundancyCheck\Crc8BlockChecksum.cs" />
