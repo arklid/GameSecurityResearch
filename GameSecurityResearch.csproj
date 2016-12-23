@@ -80,6 +80,7 @@
     <Compile Include="Hash\Custom\ResidentEvil6Checksum.cs" />
     <Compile Include="Hash\Custom\SaintsRow3Checksum.cs" />
     <Compile Include="Hash\Custom\VindictusChecksum.cs" />
+    <Compile Include="Hash\Custom\SatelliteReignChecksum.cs" />
     <Compile Include="Hash\CyclicRedundancyCheck\Crc4Checksum.cs" />
     <Compile Include="Hash\CyclicRedundancyCheck\Crc8AtmChecksum.cs" />
     <Compile Include="Hash\CyclicRedundancyCheck\Crc8BlockChecksum.cs" />
