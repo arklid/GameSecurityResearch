@@ -59,6 +59,7 @@
     <Compile Include="Hash\Custom\EAGamesChecksum.cs" />
     <Compile Include="Hash\Custom\ElectronicArtsChecksum.cs" />
     <Compile Include="Hash\Custom\ElectronicArtsMC02Checksum.cs" />
+    <Compile Include="Hash\Custom\Fifa09Checksum.cs" />
     <Compile Include="Hash\Custom\Formula12010and2011Checksum.cs" />
     <Compile Include="Hash\Custom\GodOfWar1Checksum.cs" />
     <Compile Include="Hash\Custom\LostOdysseyChecksumEncryption.cs" />
