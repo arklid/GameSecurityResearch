@@ -50,6 +50,7 @@
     <Compile Include="Hash\Custom\BayonettaChecksum.cs" />
     <Compile Include="Hash\Custom\CastlevaniaLordsofShadowChecksum.cs" />
     <Compile Include="Hash\Custom\ChaserChecksum.cs" />
+    <Compile Include="Hash\Custom\CrashTeamRacingChecksum.cs" />
     <Compile Include="Hash\Custom\DarkSoulsIIChecksum.cs" />
     <Compile Include="Hash\Custom\DarkSoulsPrepareToDieChecksum.cs" />
     <Compile Include="Hash\Custom\Diablo2Checksum.cs" />
