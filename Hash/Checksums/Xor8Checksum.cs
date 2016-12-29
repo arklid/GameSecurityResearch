@@ -23,14 +23,14 @@ namespace GameSecurityResearch.Hash.CyclicRedundancyCheck
         /// <returns>Checksum</returns>
         public static byte Xor8<T>(this T[] buffer, int length)
         {
-            byte tmp = 0;
+            byte chksum = 0;
 
             for (var i = 0; i < length; i++)
             {
-                tmp ^= (dynamic)buffer[i];
+                chksum ^= (dynamic)buffer[i] & 0xFF;
             }
 
-            return tmp;
+            return chksum;
         }
     }
 }
