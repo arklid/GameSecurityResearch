@@ -11,26 +11,26 @@
 /// 
 /// 0101010001101000011001010111001001100101001000000110100101110011001000000110111001101111001000000111001101110000011011110110111101101110
 /// </summary>
-namespace GameSecurityResearch.Hash.CyclicRedundancyCheck
+namespace GameSecurityResearch.Hash.Checksums
 {
-    public static class Sum8Checksum
+    public static class Sum24Checksum
     {
         /// <summary>
-        /// Calculates Sum-8 Checksum
+        /// Calculates Sum-24 Checksum
         /// </summary>
         /// <param name="buffer">Buffer</param>
         /// <param name="length">Length</param>
         /// <returns>Checksum</returns>
-        public static byte Calculate<T>(this T[] buffer, int length)
+        public static int Calculate<T>(this T[] buffer, int length)
         {
-            byte chksum = 0;
+            int chksum = 0;
 
             for (var i = 0; i < length; i++)
             {
                 chksum += (dynamic)buffer[i] & 0xFF;
             }
 
-            return chksum;
-        }    
+            return chksum & 0xFFFFFF;
+        }
     }
 }

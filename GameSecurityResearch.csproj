@@ -46,6 +46,9 @@
     <Compile Include="Cryptography\Forza3Crypto.cs" />
     <Compile Include="Cryptography\MyLittlePonyCrypto.cs" />
     <Compile Include="Cryptography\MonsterHunter4UltimateCrypto.cs" />
+    <Compile Include="Hash\Checksums\Sum16Checksum.cs" />
+    <Compile Include="Hash\Checksums\Sum24Checksum.cs" />
+    <Compile Include="Hash\Checksums\Sum32Checksum.cs" />
     <Compile Include="Hash\Custom\AnimalCrossingNewLeafChecksum.cs" />
     <Compile Include="Hash\Custom\BayonettaChecksum.cs" />
     <Compile Include="Hash\Custom\CastlevaniaLordsofShadowChecksum.cs" />
