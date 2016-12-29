@@ -105,6 +105,16 @@
     <Compile Include="Hash\Checksums\Adler32Checksum.cs" />
     <Compile Include="Hash\Checksums\Sum8Checksum.cs" />
     <Compile Include="Hash\Checksums\Xor8Checksum.cs" />
+    <Compile Include="Hash\NonCryptographicHashes\BernsteinHash.cs" />
+    <Compile Include="Hash\NonCryptographicHashes\Buzhash.cs" />
+    <Compile Include="Hash\NonCryptographicHashes\CityHash.cs" />
+    <Compile Include="Hash\NonCryptographicHashes\Elf64.cs" />
+    <Compile Include="Hash\NonCryptographicHashes\JavaHashcode.cs" />
+    <Compile Include="Hash\NonCryptographicHashes\JenkinsHash.cs" />
+    <Compile Include="Hash\NonCryptographicHashes\PearsonHashing.cs" />
+    <Compile Include="Hash\NonCryptographicHashes\SDBMHash.cs" />
+    <Compile Include="Hash\NonCryptographicHashes\SpookyHash.cs" />
+    <Compile Include="Hash\NonCryptographicHashes\ZobristHash.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
