@@ -85,6 +85,7 @@
     <Compile Include="Hash\Custom\SatelliteReignChecksum.cs" />
     <Compile Include="Hash\Custom\WarTimesChecksum.cs" />
     <Compile Include="Hash\Custom\NinjaGaiden2Checksum.cs" />
+    <Compile Include="Hash\CyclicRedundancyChecks\BSDChecksum.cs" />
     <Compile Include="Hash\CyclicRedundancyChecks\Crc10Checksum.cs" />
     <Compile Include="Hash\CyclicRedundancyChecks\Crc4Checksum.cs" />
     <Compile Include="Hash\CyclicRedundancyChecks\Crc8AtmChecksum.cs" />
@@ -96,10 +97,11 @@
     <Compile Include="Hash\CyclicRedundancyChecks\Crc8MaximChecksum.cs" />
     <Compile Include="Hash\CyclicRedundancyChecks\Crc8RohcChecksum.cs" />
     <Compile Include="Hash\CyclicRedundancyChecks\Crc8WcdmaChecksum.cs" />
-    <Compile Include="Hash\Hashes\Adler16Checksum.cs" />
-    <Compile Include="Hash\Hashes\Adler32Checksum.cs" />
-    <Compile Include="Hash\Hashes\Sum8Checksum.cs" />
-    <Compile Include="Hash\Hashes\Xor8Checksum.cs" />
+    <Compile Include="Hash\CyclicRedundancyChecks\SYSVChecksum.cs" />
+    <Compile Include="Hash\Checksums\Adler16Checksum.cs" />
+    <Compile Include="Hash\Checksums\Adler32Checksum.cs" />
+    <Compile Include="Hash\Checksums\Sum8Checksum.cs" />
+    <Compile Include="Hash\Checksums\Xor8Checksum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
