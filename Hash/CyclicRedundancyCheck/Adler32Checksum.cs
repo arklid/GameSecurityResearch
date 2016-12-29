@@ -21,7 +21,7 @@ namespace GameSecurityResearch.Hash.CyclicRedundancyCheck
         /// <param name="buffer">Data</param>
         /// <param name="size">Size</param>
         /// <returns>Checksum</returns>
-        public static ulong Calculate(byte[] buffer, int size)
+        public static ulong Calculate(this byte[] buffer, int size)
         {
             ulong chksum = 1L;
             ulong s1 = chksum & 0xFFFF;
