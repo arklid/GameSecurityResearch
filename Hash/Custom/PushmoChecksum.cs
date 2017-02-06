@@ -45,7 +45,7 @@ namespace GameSecurityResearch.Hash.Custom
                 crc = (crc << 8) ^ temp;
             }
 
-            return crc;
+            return crc ^ 0xD87A2314;
         }
     }
 }
