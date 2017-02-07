@@ -90,6 +90,8 @@
     <Compile Include="Hash\Custom\NinjaGaiden2Checksum.cs" />
     <Compile Include="Hash\CyclicRedundancyChecks\BSDChecksum.cs" />
     <Compile Include="Hash\CyclicRedundancyChecks\Crc10Checksum.cs" />
+    <Compile Include="Hash\CyclicRedundancyChecks\Crc16DNPChecksum.cs" />
+    <Compile Include="Hash\CyclicRedundancyChecks\Crc16EN13757Checksum.cs" />
     <Compile Include="Hash\CyclicRedundancyChecks\Crc4Checksum.cs" />
     <Compile Include="Hash\CyclicRedundancyChecks\Crc8AtmChecksum.cs" />
     <Compile Include="Hash\CyclicRedundancyChecks\Crc8BlockChecksum.cs" />
